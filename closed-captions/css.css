@@ -13,11 +13,12 @@ body {
 }
 
 #video-placeholder {
-    width: 50%;
+    width: 40%;
+    margin: 3em;
 }
 
 #closed-captions {
-    width: 50%;
+    width: 40%;
 }
 
 .marginleft100 {
