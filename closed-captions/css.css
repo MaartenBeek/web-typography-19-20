@@ -23,7 +23,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition: ease 1s;
 }
 
 #video-placeholder {
@@ -35,16 +34,17 @@ body {
 #closed-captions {
     width: 40%;
     display: block;
-    background-color: red;
     position: relative;
+    overflow: hidden;
+    height: 200px;
 }
 
-.marginleft100 {
-    margin-top: 40px;
+.margintop40 {
+    margin-top: 40px !important;
 }
 
-.marginleft200 {
-    margin-top: 80px;
+.margintop80 {
+    margin-top: 80px !important;
 }
 
 .light {
@@ -64,14 +64,47 @@ body {
 }
 
 .sound1 {
-    transition: ease 1s;
-    border: 30px solid red;
+    animation-name: innershadowred;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
-.sound2 {
-    border: 0px solid;
+@keyframes innershadowred {
+    0% {
+        box-shadow: inset 0 0 200px rgba(232,35,35,0);
+        transition: ease;
+    }
+    50% {
+        box-shadow: inset 0 0 200px rgba(232,35,35,1);
+        transition: ease;
+    }
+    100% {
+        box-shadow: inset 0 0 200px rgba(232,35,35,0);
+        transition: ease;
+    }
 }
 
+.sound1 #video-placeholder {
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    border: solid 0px rgba(232,35,35,1);
+}
+
+@keyframes shake {
+    0% {
+        transform: scale(1);
+        border: solid 0px rgba(232,35,35,1);
+    }
+    50%{
+        transform: scale(1.2);
+        border: solid 10px rgba(232,35,35,1);
+    }
+    100% {
+        transform: scale(1);
+        border: solid 0px rgba(232,35,35,1);
+    }
+}
 
 /* **********************************************
 Basic mechanics
@@ -95,12 +128,14 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
+    margin-top: 0px;
 	font-style: italic;
     font-size: 16px;
     letter-spacing: 1px;
 }
 
 .voice2 {
+    margin-top: 0px;
     font-size: 24px;
     color: #74d4c0 !important;
     letter-spacing: 1px;
@@ -108,6 +143,7 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice3 {
+    margin-top: 0px;
     font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -115,7 +151,9 @@ Feel free to adjust the defaults to your needs.
     font-weight: bold;
 }
 
+
 .voice4 {
+    margin-top: 0px;
     font-size: 24px;
     color: #888888 !important;
 }
