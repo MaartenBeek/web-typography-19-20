@@ -41,3 +41,12 @@ Voor de muziek heb ik voornamelijk gebruik gemaakt van filters. Dit in combinati
 ### Closed captions
 
 Omdat Marie aangaf dat ze de closed captions erg fijn vind omdat het voor haar anders moeilijker is om de visuele effecten te begrijpen heb ik deze er wel ingelaten. Ik heb ze wel een klein beetje geanimeerd zodat ze wel betrokken worden in de sfeer het fragment.
+
+
+
+
+## feedback
+
+door blur zie je de video niet meer
+verschil in scenes
+Meer naar tekst kijken
