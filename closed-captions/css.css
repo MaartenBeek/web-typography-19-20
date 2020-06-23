@@ -27,7 +27,7 @@ body {
 
 .container1 {
     position: absolute;
-    background-image: url(/img/red-light.jpeg);
+    background-image: url(img/red-light.jpeg);
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
@@ -39,7 +39,7 @@ body {
 
 .container2 {
     position: absolute;
-    background-image: url(/img/red-light.jpeg);
+    background-image: url(img/red-light.jpeg);
     background-blend-mode: lighten;
     background-position: center;
     background-size: cover;
@@ -51,7 +51,7 @@ body {
 
 .container3 {
     position: absolute;
-    background-image: url(/img/green-light.jpg);
+    background-image: url(img/green-light.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
@@ -63,7 +63,7 @@ body {
 
 .container4 {
     position: absolute;
-    background-image: url(/img/green-light.jpg);
+    background-image: url(img/green-light.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
@@ -75,7 +75,7 @@ body {
 
 .container5 {
     position: absolute;
-    background-image: url(/img/green-light.jpg);
+    background-image: url(img/green-light.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
