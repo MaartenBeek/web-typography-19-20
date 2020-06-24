@@ -10,6 +10,8 @@ Ik heb ervoor gekozen om systeemfonts te gebruiken voor mijn opdracht. Ik vond d
 
 Dit is de stem van de robot/machine. Ik heb voor deze stem gekozen om de monospace font-family te gebruiken, omdat je vaker bij robotachtige stemmen een mono lettertype ziet. Op deze manier wil ik herkenbaar maken voor de gebruiker dat er een robot aan het praten is. Ik heb de tekst voor deze stem een groen/blauwe kleur gegeven omdat ik dit goed vond passen  bij een robot stem, maar ook bij de vibe van de film.
 
+Uit feedback en testen bleek dat het nog wel wat benadrukt mocht worden dat het de stem van een machine/robot is. Om dit te doen heb ik een glitch effect geprobeerd te verwerken in de tekst zodat het meer als een robot stem overkomt.
+
 ## Stem 2
 
 Deze stem is van office K. Ik heb ervoor gekozen om hier een sans-serif font te gebruiken, omdat dit een heel algemeen bekend font is voor mensen. En je dit ook snel relateert aan een persoon/mens en je dit niet snel door de war haalt met een robotstem. De kleur van de tekst voor deze stem heb ik wit gemaakt, omdat deze stem het meest aan het woord is en dit dus ook prettig leest, omdat het zorgt voor contrast met de zwarte background.
@@ -42,11 +44,8 @@ Voor de muziek heb ik voornamelijk gebruik gemaakt van filters. Dit in combinati
 
 Omdat Marie aangaf dat ze de closed captions erg fijn vind omdat het voor haar anders moeilijker is om de visuele effecten te begrijpen heb ik deze er wel ingelaten. Ik heb ze wel een klein beetje geanimeerd zodat ze wel betrokken worden in de sfeer het fragment.
 
+### Achtergronden
 
+Uit naderhand testen bleek dat op sommige momenten het geluid wat visueler gemaakt mocht worden. Dit heb ik gedaan door achtergronden te gebruiken op bepaalde momenten in de video, op deze manier heb ik de sfeer geprobeerd te versterken. 
 
-
-## feedback
-
-door blur zie je de video niet meer
-verschil in scenes
-Meer naar tekst kijken
+Ik heb daarnaast ook gif overlays gebruikt om de verschillende sferen van de scenes te visualiseren. Ik heb ervoor bewust voor gekozen om deze niet over de top te maken, maar geprobeerd om op het randje te balanceren van over de top en aangenaam om naar te kijken.
