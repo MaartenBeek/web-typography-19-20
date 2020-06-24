@@ -403,11 +403,10 @@ body {
 .scanner {
     position: absolute;
 	width: 20px;
-	height: 700px;
+	height: 1700px;
 	background: white;
 	right: 80%;
 	top: 50%;
-
 	transform: translateY(-50%);
 	filter:blur(10px);
 	opacity: 0;
@@ -423,6 +422,9 @@ body {
 @keyframes scan {
     0%{
         right:80%;
+        opacity: 1;
+    }
+    70%{
         opacity: 1;
     }
     100%{
@@ -755,6 +757,7 @@ Feel free to adjust the defaults to your needs.
     letter-spacing: 1px;
     color: #74d4c0 !important;
     font-family: monospace !important;
+    text-shadow: 2px 2px 2px red;
 }
 
 .voice2 {
@@ -771,6 +774,8 @@ Feel free to adjust the defaults to your needs.
     color: #E61616 !important;
     font-weight: bold;
     font-weight: 100;
+    text-shadow: 0px 0px 5px #E61616;
+
 }
 
 .voice4 {
